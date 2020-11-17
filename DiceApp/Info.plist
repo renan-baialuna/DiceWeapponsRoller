@@ -56,5 +56,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CinzelDecorative-Regular.ttf</string>
+		<string>CinzelDecorative-Bold.ttf</string>
+		<string>CinzelDecorative-Black.ttf</string>
+	</array>
 </dict>
 </plist>
