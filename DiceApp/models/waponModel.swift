@@ -27,19 +27,19 @@ enum modifier {
     case plusOne
 }
 
-enum typeOfDiceSelector {
-    case uno
-    case d3
-    case d6
+enum typeOfDiceSelector : String {
+    case uno = "",
+    d3 = "d3",
+    d6 = "d6"
 }
 
-enum typesOfWeappons {
-    case malee
-    case pistol
-    case rapidFire
-    case assalt
-    case heavy
-    case granade
+enum typesOfWeappons: String {
+    case malee = "malee",
+    pistol = "pistol",
+    rapidFire = "rapidFire",
+    assalt = "assalt",
+    heavy = "heavy",
+    granade = "granade"
 }
 
 struct Weappon: Identifiable {

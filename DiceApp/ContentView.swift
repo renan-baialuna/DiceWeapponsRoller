@@ -100,7 +100,7 @@ struct ContentView: View {
 //                }) {
 //                    Image(systemName: "plus.circle").font(.system(size: 30, weight: .bold))
 //                }
-                    NavigationLink(destination: Text("addWeapponScreen")) {
+                    NavigationLink(destination: AddWeapponScreen()) {
                         Image(systemName: "plus.circle").font(.system(size: 30, weight: .bold))
                     }
                 

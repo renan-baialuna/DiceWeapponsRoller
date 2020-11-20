@@ -10,6 +10,7 @@
 		8066C907255DD67C00384056 /* CinzelDecorative-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8066C904255DD67C00384056 /* CinzelDecorative-Bold.ttf */; };
 		8066C908255DD67C00384056 /* CinzelDecorative-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8066C905255DD67C00384056 /* CinzelDecorative-Black.ttf */; };
 		8066C909255DD67C00384056 /* CinzelDecorative-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8066C906255DD67C00384056 /* CinzelDecorative-Regular.ttf */; };
+		808DD29D25676F540040FAF3 /* DiceApp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 808DD29C25676F540040FAF3 /* DiceApp.pdf */; };
 		808EDE8D256326AE008D7B1C /* VerticalSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EDE8C256326AE008D7B1C /* VerticalSubview.swift */; };
 		808EDE8E256326AE008D7B1C /* VerticalSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EDE8C256326AE008D7B1C /* VerticalSubview.swift */; };
 		808EDE8F256326AE008D7B1C /* VerticalSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EDE8C256326AE008D7B1C /* VerticalSubview.swift */; };
@@ -26,9 +27,9 @@
 		80B2AA40255C66F8003984B7 /* DiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2AA3F255C66F8003984B7 /* DiceAppTests.swift */; };
 		80B2AA4B255C66F8003984B7 /* DiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2AA4A255C66F8003984B7 /* DiceAppUITests.swift */; };
 		80B2AA5A255C6783003984B7 /* waponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2AA59255C6783003984B7 /* waponModel.swift */; };
-		80D6115F256384A0005E4D01 /* addWeapponScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6115E256384A0005E4D01 /* addWeapponScreen.swift */; };
-		80D61160256384A0005E4D01 /* addWeapponScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6115E256384A0005E4D01 /* addWeapponScreen.swift */; };
-		80D61161256384A0005E4D01 /* addWeapponScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6115E256384A0005E4D01 /* addWeapponScreen.swift */; };
+		80D6115F256384A0005E4D01 /* AddWeapponScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6115E256384A0005E4D01 /* AddWeapponScreen.swift */; };
+		80D61160256384A0005E4D01 /* AddWeapponScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6115E256384A0005E4D01 /* AddWeapponScreen.swift */; };
+		80D61161256384A0005E4D01 /* AddWeapponScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6115E256384A0005E4D01 /* AddWeapponScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8066C904255DD67C00384056 /* CinzelDecorative-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CinzelDecorative-Bold.ttf"; sourceTree = "<group>"; };
 		8066C905255DD67C00384056 /* CinzelDecorative-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CinzelDecorative-Black.ttf"; sourceTree = "<group>"; };
 		8066C906255DD67C00384056 /* CinzelDecorative-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CinzelDecorative-Regular.ttf"; sourceTree = "<group>"; };
+		808DD29C25676F540040FAF3 /* DiceApp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DiceApp.pdf; sourceTree = "<group>"; };
 		808EDE8C256326AE008D7B1C /* VerticalSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSubview.swift; sourceTree = "<group>"; };
 		808EDE9025632786008D7B1C /* PrepertyIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepertyIndicator.swift; sourceTree = "<group>"; };
 		80B2AA22255C66F2003984B7 /* DiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +72,7 @@
 		80B2AA4A255C66F8003984B7 /* DiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppUITests.swift; sourceTree = "<group>"; };
 		80B2AA4C255C66F8003984B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B2AA59255C6783003984B7 /* waponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waponModel.swift; sourceTree = "<group>"; };
-		80D6115E256384A0005E4D01 /* addWeapponScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addWeapponScreen.swift; sourceTree = "<group>"; };
+		80D6115E256384A0005E4D01 /* AddWeapponScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeapponScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		80B2AA19255C66F2003984B7 = {
 			isa = PBXGroup;
 			children = (
+				808DD29C25676F540040FAF3 /* DiceApp.pdf */,
 				80B2AA24255C66F2003984B7 /* DiceApp */,
 				80B2AA3E255C66F8003984B7 /* DiceAppTests */,
 				80B2AA49255C66F8003984B7 /* DiceAppUITests */,
@@ -193,7 +196,7 @@
 		80D6115D25638408005E4D01 /* mainViews */ = {
 			isa = PBXGroup;
 			children = (
-				80D6115E256384A0005E4D01 /* addWeapponScreen.swift */,
+				80D6115E256384A0005E4D01 /* AddWeapponScreen.swift */,
 			);
 			path = mainViews;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B2AA35255C66F7003984B7 /* LaunchScreen.storyboard in Resources */,
+				808DD29D25676F540040FAF3 /* DiceApp.pdf in Resources */,
 				80B2AA32255C66F7003984B7 /* Preview Assets.xcassets in Resources */,
 				8066C908255DD67C00384056 /* CinzelDecorative-Black.ttf in Resources */,
 				8066C907255DD67C00384056 /* CinzelDecorative-Bold.ttf in Resources */,
@@ -336,7 +340,7 @@
 				808EDE8D256326AE008D7B1C /* VerticalSubview.swift in Sources */,
 				80B2AA2B255C66F2003984B7 /* DiceApp.xcdatamodeld in Sources */,
 				80B2AA26255C66F2003984B7 /* AppDelegate.swift in Sources */,
-				80D6115F256384A0005E4D01 /* addWeapponScreen.swift in Sources */,
+				80D6115F256384A0005E4D01 /* AddWeapponScreen.swift in Sources */,
 				808EDE9125632786008D7B1C /* PrepertyIndicator.swift in Sources */,
 				80B2AA2D255C66F2003984B7 /* ContentView.swift in Sources */,
 				80B2AA28255C66F2003984B7 /* SceneDelegate.swift in Sources */,
@@ -347,7 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D61160256384A0005E4D01 /* addWeapponScreen.swift in Sources */,
+				80D61160256384A0005E4D01 /* AddWeapponScreen.swift in Sources */,
 				80B2AA40255C66F8003984B7 /* DiceAppTests.swift in Sources */,
 				808EDE9225632786008D7B1C /* PrepertyIndicator.swift in Sources */,
 				808EDE8E256326AE008D7B1C /* VerticalSubview.swift in Sources */,
@@ -358,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D61161256384A0005E4D01 /* addWeapponScreen.swift in Sources */,
+				80D61161256384A0005E4D01 /* AddWeapponScreen.swift in Sources */,
 				80B2AA4B255C66F8003984B7 /* DiceAppUITests.swift in Sources */,
 				808EDE9325632786008D7B1C /* PrepertyIndicator.swift in Sources */,
 				808EDE8F256326AE008D7B1C /* VerticalSubview.swift in Sources */,
