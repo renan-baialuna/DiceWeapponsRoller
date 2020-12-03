@@ -28,7 +28,7 @@ enum modifier {
 }
 
 enum typeOfDiceSelector : String {
-    case uno = "",
+    case uno = "1",
     d3 = "d3",
     d6 = "d6"
 }

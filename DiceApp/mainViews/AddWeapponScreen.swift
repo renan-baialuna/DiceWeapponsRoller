@@ -41,6 +41,9 @@ struct AddWeapponScreen: View {
     
     var typeShoots = [typeOfDiceSelector.uno.rawValue, typeOfDiceSelector.d3.rawValue, typeOfDiceSelector.d6.rawValue]
     @State private var typeShootsSelection = 0
+    @State private var showSelection: Bool = false
+    
+    @State private var typeShoot: typeOfDiceSelector = .uno
     
     
     
@@ -78,7 +81,7 @@ struct AddWeapponScreen: View {
             /*-----------------------------------------------------*/
             
             Spacer()
-            HStack {
+            HStack(alignment: .bottom) {
                 Text("Range:").font(.custom(fontsEnum.bold.rawValue, size: 15))
                 ZStack{
                     Capsule().foregroundColor(colorWhite).frame(width: 60, height: 40, alignment: .center)
@@ -147,19 +150,31 @@ struct AddWeapponScreen: View {
                 Text("Type:")
                     .font(fontUsed)
                 
-                Picker(selection: $typeShootsSelection, label: Text("type")) {
-                   ForEach(0 ..< typeShoots.count) {
-                      Text(self.typeShoots[$0])
-                   }
+                Button(action: {
+                    print("sign up bin tapped")
+                    self.isAutohit = !self.isAutohit
+                    self.showSelection = !self.showSelection
+                }) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 5)
+                            .frame(width: 60, height: 40)
+                            .foregroundColor(colorGreen)
+                        Text(self.typeShoot.rawValue)
+                            .font(.system(size: 35, weight: .bold)).foregroundColor(colorWhite)
+                        
+                        
+                    }.actionSheet(isPresented: $showSelection) {
+                        ActionSheet(title: Text("Hit"), message: Text("Choose type of hit"), buttons: [.default(Text(typeOfDiceSelector.uno.rawValue)) {
+                                self.typeShoot = typeOfDiceSelector.uno
+                            }, .default(Text(typeOfDiceSelector.d3.rawValue)){
+                                self.typeShoot = typeOfDiceSelector.d3
+                            },
+                            .default(Text(typeOfDiceSelector.d6.rawValue)){
+                                self.typeShoot = typeOfDiceSelector.d6
+                            }
+                            ])
+                    }
                 }
-                .frame(width: 100, height: selectorHeight, alignment: .leading)
-                
-               .labelsHidden()
-                 // THE FOLLOWING 2 STATEMENTS *IN CONJUNCTION* SEEM TO GIVE DESIRED Height/Width
-                .fixedSize()
-                .compositingGroup() // << add this modifier above clipping !!!
-                .clipped()     // seems to accomplish nothing, visually or regarding touches
-                .cornerRadius(10)
             }
            
             /*-----------------------------------------------------*/
